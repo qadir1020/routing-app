@@ -8,7 +8,7 @@ interface AuthState {
 
 const initialState: AuthState = {
   isLoggedIn: false,
-  isLoggedOut:false
+  isLoggedOut: true
 };
 
 const authSlice = createSlice({
